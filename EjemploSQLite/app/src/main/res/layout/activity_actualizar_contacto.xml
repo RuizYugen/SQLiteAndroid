@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        />
+
+    <EditText
+        android:id="@+id/txtNombre1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="39dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="telefono"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentTop="true"
+        />
+    <EditText
+        android:id="@+id/txtTelefono1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        android:layout_marginTop="135dp"
+        android:layout_alignParentTop="true"
+        />
+    <EditText
+        android:id="@+id/txtCorreo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="160dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/btnGuardar1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="195dp"
+        android:onClick="btnGuardarClick1"
+        />
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/dtpFecha"
+        android:layout_marginTop="245dp"
+        ></DatePicker>
+
+</RelativeLayout>
